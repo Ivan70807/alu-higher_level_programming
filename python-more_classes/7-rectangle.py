@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """A class that defines a rectangle with customizable symbols and tracking."""
+    """A class that defines a rectangle with symbols and tracking."""
 
     number_of_instances = 0
     print_symbol = "#"
