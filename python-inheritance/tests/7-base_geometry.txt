@@ -12,6 +12,14 @@ TypeError: name must be an integer
 Traceback (most recent call last):
 TypeError: age must be an integer
 
+>>> bg.integer_validator("height", 5.5)
+Traceback (most recent call last):
+TypeError: height must be an integer
+
+>>> bg.integer_validator("weight", None)
+Traceback (most recent call last):
+TypeError: weight must be an integer
+
 >>> bg.integer_validator("age", 0)
 Traceback (most recent call last):
 ValueError: age must be greater than 0
